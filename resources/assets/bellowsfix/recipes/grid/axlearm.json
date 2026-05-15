@@ -1,0 +1,38 @@
+{
+  "ingredientPattern": "HC_,BBX,FR_",
+  "ingredients": {
+    "H": { "type": "item", "code": "game:hammer-*", "name": "metal", "isTool": true },
+    "C": {
+      "type": "item",
+      "code": "game:chisel-*",
+      "name": "metal",
+      "isTool": true
+    },
+    "B": {
+      "type": "item",
+      "code": "game:plank-*",
+      "name": "wood",
+      "skipVariants": [ "agedebony", "rottenebony" ]
+    },
+    "X": {
+      "type": "block",
+      "code": "game:woodenaxle-ud",
+      "name": "woodenaxle"
+    },
+    "F": {
+      "type": "item",
+      "code": "game:fat-rendered"
+    },
+    "R": {
+      "type": "item",
+      "code": "game:resin"
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "name": "wooden linkage arm",
+  "output": {
+    "type": "block",
+    "code": "game:axlearm-wood-north"
+  }
+}

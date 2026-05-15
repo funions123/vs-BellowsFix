@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/3/enabled",
+    "value": true,
+    "file": "game:recipes/grid/bellows.json"
+  }
+]
