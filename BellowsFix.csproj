@@ -3,9 +3,9 @@
   <PropertyGroup>
     <ModName>BellowsFix</ModName>
     <ModType>code</ModType>
-    <ModVersion>1.0.0</ModVersion>
+    <ModVersion>1.0.2</ModVersion>
     <ModId>bellowsfix</ModId>
-    <Description></Description>
+    <Description>Implements the vanilla big bellows.</Description>
     <Side>universal</Side>
     <RequiredOnClient>true</RequiredOnClient>
     <RequiredOnServer>true</RequiredOnServer>
@@ -13,7 +13,7 @@
 
   <!-- Authors -->
   <ItemGroup>
-    <ModInfoAuthors Include="Author" />
+    <ModInfoAuthors Include="Onions" />
   </ItemGroup>
 
   <!-- Dependencies -->

@@ -63,10 +63,13 @@ namespace BellowsFix
         public static void Postfix(BlockEntityMechPoweredBellows __instance)
         {
             var connected = Traverse.Create(__instance).Field<bool>("connected").Value;
-            if (!connected) return;
-
             var mpc = Traverse.Create(__instance).Field<BEBehaviorMPConsumer>("mpc").Value;
-            if (mpc?.Network == null || mpc.Network.Speed <= 0f) return;
+
+            if (!connected || mpc?.Network == null || mpc.Network.Speed <= 0f)
+            {
+                if (_states.TryGetValue(__instance, out var s)) s.PrevAngle = float.NaN;
+                return;
+            }
 
             var state = _states.GetOrCreateValue(__instance);
             float angle = mpc.AngleRad;
