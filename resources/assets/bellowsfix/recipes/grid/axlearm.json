@@ -1,11 +1,14 @@
 {
   "ingredientPattern": "HC_,BBX,FR_",
   "ingredients": {
-    "H": { "type": "item", "code": "game:hammer-*", "name": "metal", "isTool": true },
+    "H": {
+      "type": "item",
+      "code": "game:hammer-*",
+      "isTool": true
+    },
     "C": {
       "type": "item",
       "code": "game:chisel-*",
-      "name": "metal",
       "isTool": true
     },
     "B": {
