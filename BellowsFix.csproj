@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>BellowsFix</ModName>
     <ModType>code</ModType>
-    <ModVersion>1.0.2</ModVersion>
+    <ModVersion>1.0.3</ModVersion>
     <ModId>bellowsfix</ModId>
     <Description>Implements the vanilla big bellows.</Description>
     <Side>universal</Side>
